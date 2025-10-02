@@ -4,7 +4,7 @@ import Layout from '../components/common/Layout.tsx'
 
 export const router = createBrowserRouter([
   {
-    path: './',
+    path: '/',
     element: <Layout />,
     children: routesConfig
   }

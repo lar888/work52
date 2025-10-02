@@ -20,49 +20,49 @@ export interface RouteConfig {
 export const routesConfig: RouteConfig[] = [
   {
     id: 'home',
-    path: './',
+    path: '/',
     element: <Home />,
     label: 'Home',
     showInNavigation: true
   },
   {
     id: 'posts',
-    path: './posts',
+    path: '/posts',
     element: <Posts />,
     label: 'Publications',
     showInNavigation: true
   },
   {
     id: 'users',
-    path: './users',
+    path: '/users',
     element: <Users />,
     label: 'The Team',
     showInNavigation: true
   },
   {
     id: 'research',
-    path: './research',
+    path: '/research',
     element: <Research />,
     label: 'Research',
     showInNavigation: true
   },
   {
     id: 'news',
-    path: './news',
+    path: '/news',
     element: <News />,
     label: 'News',
     showInNavigation: true
   },
   {
     id: 'funding',
-    path: './funding',
+    path: '/funding',
     element: <Funding />,
     label: 'Funding',
     showInNavigation: true
   },
   {
     id: 'contact',
-    path: './contact',
+    path: '/contact',
     element: <Contact />,
     label: 'Contact',
     showInNavigation: true
@@ -70,7 +70,7 @@ export const routesConfig: RouteConfig[] = [
   // ADMIN (protected) — not shown in public navigation
   {
     id: 'admin',
-    path: './admin',
+    path: '/admin',
     element: <RequireAuth><Admin /></RequireAuth>,
     label: 'Admin',
     showInNavigation: false
