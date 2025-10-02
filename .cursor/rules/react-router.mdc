@@ -1,0 +1,17 @@
+---
+description: Comprehensive best practices for building scalable, accessible, and performant routing systems in React applications using React Router
+globs: **/*.ts,**/*.tsx,**/*.js,**/*.jsx
+alwaysApply: false
+---
+
+- For React Router 7+, import routing components (BrowserRouter, Routes, Route, Link, etc.) from 'react-router' instead of 'react-router-dom'
+- Use 'react-router-dom' for DOM-specific utilities only if unavailable in 'react-router'
+- Define routes with createBrowserRouter to enable centralized configuration, TypeScript support, and server-side rendering compatibility
+- Use nested routes to structure complex UI hierarchies, ensuring modular and maintainable layouts
+- Implement layout routes to share reusable UI components like headers or sidebars across routes
+- Set index routes to render default child routes, simplifying navigation flows
+- Leverage useNavigate for programmatic navigation with type-safe dynamic redirects
+- Apply Link for declarative navigation, enhancing accessibility with aria-labels and keyboard support
+- Handle 404 errors with a catch-all route to provide user-friendly error pages
+- Access route parameters and queries with useParams and useSearchParams, leveraging TypeScript for typed parameters
+- Optimize performance using React.lazy and Suspense for dynamic code-splitting, minimizing initial load times

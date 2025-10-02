@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "image": "https://picsum.photos/640/480?random=1",
+    "member": "Alice Morgan - Post Doctoral Researcher",
+    "description": "Focuses on protein folding mechanisms and misfolding in neurodegenerative diseases. Her work combines biochemical assays with computational simulations to understand how proteins adopt stable structures and what happens when these processes go wrong, providing insights into Alzheimer’s and Parkinson’s disease."
+  },
+  {
+    "id": "2",
+    "image": "https://picsum.photos/640/480?random=2",
+    "member": "Benjamin Carter - PhD Candidate",
+    "description": "Researching biophysical models of mitochondrial energy conversion and ATP synthase function. He investigates how energy is generated at the molecular level and seeks to uncover novel mechanisms that could lead to new approaches in metabolic engineering and bio-inspired energy systems."
+  },
+  {
+    "id": "3",
+    "image": "https://picsum.photos/640/480?random=3",
+    "member": "Clara Liu - Post Doctoral Researcher",
+    "description": "Specializes in cryo-electron microscopy for structural analysis of ribosomal complexes. Her research focuses on high-resolution visualization of protein synthesis machinery, aiming to capture dynamic structural changes that occur during translation and antibiotic interactions."
+  },
+  {
+    "id": "4",
+    "image": "https://picsum.photos/640/480?random=4",
+    "member": "David Romero - PhD Candidate",
+    "description": "Investigating lipid-protein interactions and their role in membrane signaling. By integrating molecular simulations with experimental data, he studies how lipid composition influences protein activity and signaling pathways crucial for cellular communication."
+  },
+  {
+    "id": "5",
+    "image": "https://picsum.photos/640/480?random=5",
+    "member": "Elena Petrova - Post Doctoral Researcher",
+    "description": "Explores enzyme kinetics and the molecular basis of drug resistance. She is particularly interested in understanding how mutations alter enzyme activity, contributing to resistance in pathogenic organisms and complicating current therapeutic approaches."
+  },
+  {
+    "id": "6",
+    "image": "https://picsum.photos/640/480?random=6",
+    "member": "Felix Schmidt - PhD Candidate",
+    "description": "Uses single-molecule biophysics to study DNA repair and genome stability. His work involves advanced fluorescence microscopy to observe how repair proteins locate and correct damage at the molecular level, with implications for cancer prevention and treatment."
+  },
+  {
+    "id": "7",
+    "image": "https://picsum.photos/640/480?random=7",
+    "member": "Grace Tanaka - Post Doctoral Researcher",
+    "description": "Researches quantum biological effects in photosynthesis and energy transfer. She explores how quantum coherence may enhance light-harvesting efficiency in plants and bacteria, bridging physics and biology to reveal fundamental principles of energy flow."
+  },
+  {
+    "id": "8",
+    "image": "https://picsum.photos/640/480?random=8",
+    "member": "Hugo Fernández - PhD Candidate",
+    "description": "Works on computational modeling of protein-ligand interactions for drug discovery. His simulations help identify key molecular features that influence drug binding, aiming to accelerate the design of effective therapeutics with fewer side effects."
+  },
+  {
+    "id": "9",
+    "image": "https://picsum.photos/640/480?random=9",
+    "member": "Isabella Rossi - Post Doctoral Researcher",
+    "description": "Studies the role of molecular chaperones in protein misfolding disorders. Her research investigates how these specialized proteins assist folding, prevent aggregation, and maintain proteostasis, which is essential for combating neurodegenerative conditions."
+  },
+  {
+    "id": "10",
+    "image": "https://picsum.photos/640/480?random=10",
+    "member": "Jack Wilson - PhD Candidate",
+    "description": "Developing fluorescence spectroscopy methods to track metabolic pathways in cells. His innovative approaches allow real-time observation of metabolites, offering a window into the dynamic regulation of cellular energy and biosynthetic processes."
+  },
+  {
+    "id": "11",
+    "image": "https://picsum.photos/640/480?random=11",
+    "member": "Katarina Novak - Post Doctoral Researcher",
+    "description": "Investigates oxidative stress and redox biology in cellular aging. By studying the balance of reactive oxygen species and antioxidant systems, her work seeks to uncover molecular strategies for slowing age-related cellular decline."
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/640/480?random=12",
+    "member": "Liam O'Connor - PhD Candidate",
+    "description": "Designs optogenetic tools for studying neural signaling at the molecular level. His research integrates genetics, optics, and electrophysiology to precisely control and monitor neuron activity, offering insights into brain circuits and neurological disorders."
+  },
+  {
+    "id": "13",
+    "image": "https://picsum.photos/640/480?random=13",
+    "member": "Maya Gupta - Post Doctoral Researcher",
+    "description": "Uses computational bioinformatics to predict protein structures and dynamics. She applies machine learning and large-scale modeling approaches to analyze complex biological data, advancing the field of structural biology."
+  },
+  {
+    "id": "14",
+    "image": "https://picsum.photos/640/480?random=14",
+    "member": "Noah Johnson - PhD Candidate",
+    "description": "Explores metabolic reprogramming in cancer cells through biochemical assays. His work focuses on how cancer cells alter energy production to support uncontrolled growth, aiming to identify potential metabolic vulnerabilities for therapy."
+  },
+  {
+    "id": "15",
+    "image": "https://picsum.photos/640/480?random=15",
+    "member": "Olivia Chen - Post Doctoral Researcher",
+    "description": "Specializes in molecular dynamics simulations of enzyme catalysis. Her work provides atomic-level insights into reaction mechanisms, guiding the design of more efficient enzymes for biotechnology and pharmaceutical applications."
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/640/480?random=16",
+    "member": "Patrick Müller - PhD Candidate",
+    "description": "Examines hydration shells and their influence on enzymatic activity. He combines spectroscopy with theoretical models to reveal how water molecules mediate interactions that are essential for catalytic function."
+  },
+  {
+    "id": "17",
+    "image": "https://picsum.photos/640/480?random=17",
+    "member": "Qi Zhang - Post Doctoral Researcher",
+    "description": "Develops models for cytoskeletal mechanics and intracellular force generation. His studies focus on how actin filaments and microtubules organize and generate forces, which are fundamental for cell division, migration, and structural integrity."
+  },
+  {
+    "id": "18",
+    "image": "https://picsum.photos/640/480?random=18",
+    "member": "Rosa Almeida - PhD Candidate",
+    "description": "Focuses on RNA structural biology and riboswitch regulatory mechanisms. By combining crystallography and functional assays, she explores how RNA adopts unique 3D structures to control gene expression in bacteria and eukaryotes."
+  },
+  {
+    "id": "19",
+    "image": "https://picsum.photos/640/480?random=19",
+    "member": "Samuel Green - Post Doctoral Researcher",
+    "description": "Studies ion channel dynamics and electrophysiological properties at atomic resolution. His research employs simulations and patch-clamp techniques to uncover how ions move through channels, influencing nervous system activity and drug targets."
+  },
+  {
+    "id": "20",
+    "image": "https://picsum.photos/640/480?random=20",
+    "member": "Tara Singh - PhD Candidate",
+    "description": "Investigates intrinsically disordered proteins in signal transduction networks. Her studies reveal how flexibility and disorder allow these proteins to act as hubs for cellular communication, adapting to diverse interaction partners."
+  }
+]

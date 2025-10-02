@@ -1,0 +1,14 @@
+---
+description: Best practices for TypeScript imports and type declarations
+globs: **/*.ts,**/*.tsx
+alwaysApply: true
+---
+
+- Always use `import type` for importing types, interfaces, and type-only imports (e.g., `import type { User } from './types'` instead of `import { User } from './types'`).
+- Separate type imports from value imports for better clarity and tree-shaking (e.g., `import React from 'react'` and `import type { FC } from 'react'` on separate lines).
+- Group imports in the following order: external libraries, internal modules, then type-only imports.
+- Use explicit type annotations for function parameters and return types when not obvious from context.
+- Prefer interface over type for object definitions when possible, as interfaces are more extendable.
+- Use descriptive type names with PascalCase convention (e.g., `UserProfile`, `ApiResponse`).
+- Export types and interfaces explicitly using `export type` or `export interface`.
+- Use generic types when creating reusable components or utilities (e.g., `<T extends Record<string, unknown>>`).

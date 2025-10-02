@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/640/480?random=1",
+    "date": "2025-01-05",
+    "description": "Researchers identify a new protein folding pathway that may explain resilience in neurodegenerative diseases."
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/640/480?random=2",
+    "date": "2025-01-12",
+    "description": "Breakthrough in cryo-EM enables visualization of ribosomes at unprecedented resolution."
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/640/480?random=3",
+    "date": "2025-01-20",
+    "description": "Discovery of lipid raft dynamics reveals new targets for cancer therapy."
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/640/480?random=4",
+    "date": "2025-01-28",
+    "description": "Biophysicists model mitochondrial ATP synthase efficiency under stress conditions."
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/640/480?random=5",
+    "date": "2025-02-03",
+    "description": "New findings on enzyme kinetics provide insights into drug resistance mechanisms."
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/640/480?random=6",
+    "date": "2025-02-10",
+    "description": "Single-molecule biophysics sheds light on DNA repair processes."
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/640/480?random=7",
+    "date": "2025-02-18",
+    "description": "Scientists uncover quantum effects in photosynthetic energy transfer."
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/640/480?random=8",
+    "date": "2025-02-25",
+    "description": "New computational models simulate protein-ligand interactions with high accuracy."
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/640/480?random=9",
+    "date": "2025-03-01",
+    "description": "Study reveals how chaperone proteins assist in preventing protein misfolding."
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/640/480?random=10",
+    "date": "2025-03-08",
+    "description": "Advances in fluorescence spectroscopy allow real-time tracking of cellular metabolism."
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/640/480?random=11",
+    "date": "2025-03-15",
+    "description": "New insights into redox biology highlight the role of reactive oxygen species in aging."
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/640/480?random=12",
+    "date": "2025-03-22",
+    "description": "Optogenetics continues to expand with engineered light-sensitive proteins."
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/640/480?random=13",
+    "date": "2025-03-29",
+    "description": "Breakthrough in structural bioinformatics improves protein structure predictions."
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/640/480?random=14",
+    "date": "2025-04-05",
+    "description": "Biochemical studies reveal metabolic reprogramming in aggressive tumors."
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/640/480?random=15",
+    "date": "2025-04-12",
+    "description": "New techniques in molecular dynamics simulations provide nanosecond precision."
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/640/480?random=16",
+    "date": "2025-04-18",
+    "description": "Study shows protein hydration shells are key to enzyme function."
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/640/480?random=17",
+    "date": "2025-04-25",
+    "description": "New biophysical model explains mechanical properties of cytoskeletal filaments."
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/640/480?random=18",
+    "date": "2025-05-02",
+    "description": "Scientists reveal role of membrane curvature in cell signaling pathways."
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/640/480?random=19",
+    "date": "2025-05-09",
+    "description": "Novel biosensors allow precise measurement of intracellular pH changes."
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/640/480?random=20",
+    "date": "2025-05-16",
+    "description": "Advanced spectroscopy techniques uncover hidden states in protein folding."
+  },
+  {
+    "id": 21,
+    "image": "https://picsum.photos/640/480?random=21",
+    "date": "2025-05-23",
+    "description": "Research shows how mitochondria adapt to fluctuating energy demands."
+  },
+  {
+    "id": 22,
+    "image": "https://picsum.photos/640/480?random=22",
+    "date": "2025-05-30",
+    "description": "New molecular probes track oxidative stress in live tissues."
+  },
+  {
+    "id": 23,
+    "image": "https://picsum.photos/640/480?random=23",
+    "date": "2025-06-06",
+    "description": "Scientists explore the role of intrinsically disordered proteins in cellular signaling."
+  },
+  {
+    "id": 24,
+    "image": "https://picsum.photos/640/480?random=24",
+    "date": "2025-06-12",
+    "description": "Breakthrough in RNA structural biology sheds light on riboswitch mechanisms."
+  },
+  {
+    "id": 25,
+    "image": "https://picsum.photos/640/480?random=25",
+    "date": "2025-06-19",
+    "description": "Biophysicists map the dynamics of ion channels at atomic resolution."
+  },
+  {
+    "id": 26,
+    "image": "https://picsum.photos/640/480?random=26",
+    "date": "2025-06-26",
+    "description": "Study demonstrates how enzymes achieve catalytic efficiency near quantum limits."
+  },
+  {
+    "id": 27,
+    "image": "https://picsum.photos/640/480?random=27",
+    "date": "2025-07-03",
+    "description": "New insights into actin filament branching advance understanding of cell motility."
+  },
+  {
+    "id": 28,
+    "image": "https://picsum.photos/640/480?random=28",
+    "date": "2025-07-10",
+    "description": "Scientists develop artificial enzymes with tailored catalytic properties."
+  },
+  {
+    "id": 29,
+    "image": "https://picsum.photos/640/480?random=29",
+    "date": "2025-07-17",
+    "description": "Research reveals how temperature shifts influence protein stability."
+  },
+  {
+    "id": 30,
+    "image": "https://picsum.photos/640/480?random=30",
+    "date": "2025-07-24",
+    "description": "Study shows lipid-protein interactions are critical for membrane function."
+  },
+  {
+    "id": 31,
+    "image": "https://picsum.photos/640/480?random=31",
+    "date": "2025-07-31",
+    "description": "Breakthrough in NMR spectroscopy provides atomic-level detail on protein dynamics."
+  },
+  {
+    "id": 32,
+    "image": "https://picsum.photos/640/480?random=32",
+    "date": "2025-08-07",
+    "description": "Scientists model the role of entropy in molecular recognition."
+  },
+  {
+    "id": 33,
+    "image": "https://picsum.photos/640/480?random=33",
+    "date": "2025-08-14",
+    "description": "Biophysicists visualize DNA supercoiling in real time."
+  },
+  {
+    "id": 34,
+    "image": "https://picsum.photos/640/480?random=34",
+    "date": "2025-08-21",
+    "description": "New fluorescence tags allow deep imaging of tissues with minimal damage."
+  },
+  {
+    "id": 35,
+    "image": "https://picsum.photos/640/480?random=35",
+    "date": "2025-08-28",
+    "description": "Computational biology reveals new mechanisms in protein aggregation disorders."
+  },
+  {
+    "id": 36,
+    "image": "https://picsum.photos/640/480?random=36",
+    "date": "2025-09-04",
+    "description": "Scientists uncover hidden allosteric sites in critical enzymes."
+  },
+  {
+    "id": 37,
+    "image": "https://picsum.photos/640/480?random=37",
+    "date": "2025-09-11",
+    "description": "Research shows the mechanical basis of protein unfolding under stress."
+  },
+  {
+    "id": 38,
+    "image": "https://picsum.photos/640/480?random=38",
+    "date": "2025-09-18",
+    "description": "New study links changes in protein electrostatics to disease mutations."
+  },
+  {
+    "id": 39,
+    "image": "https://picsum.photos/640/480?random=39",
+    "date": "2025-09-25",
+    "description": "Biophysicists demonstrate nanoscale visualization of cellular force generation."
+  },
+  {
+    "id": 40,
+    "image": "https://picsum.photos/640/480?random=40",
+    "date": "2025-10-02",
+    "description": "Advances in artificial membranes provide platforms for drug testing."
+  },
+  {
+    "id": 41,
+    "image": "https://picsum.photos/640/480?random=41",
+    "date": "2025-10-09",
+    "description": "Study reveals how hydration dynamics control protein flexibility."
+  },
+  {
+    "id": 42,
+    "image": "https://picsum.photos/640/480?random=42",
+    "date": "2025-10-16",
+    "description": "Breakthrough in light-based biophysics enables non-invasive neural mapping."
+  },
+  {
+    "id": 43,
+    "image": "https://picsum.photos/640/480?random=43",
+    "date": "2025-10-23",
+    "description": "Research uncovers thermodynamic principles guiding protein-RNA binding."
+  },
+  {
+    "id": 44,
+    "image": "https://picsum.photos/640/480?random=44",
+    "date": "2025-10-30",
+    "description": "New methods allow detection of protein post-translational modifications in single cells."
+  },
+  {
+    "id": 45,
+    "image": "https://picsum.photos/640/480?random=45",
+    "date": "2025-11-06",
+    "description": "Scientists explore how mechanical forces shape nuclear architecture."
+  },
+  {
+    "id": 46,
+    "image": "https://picsum.photos/640/480?random=46",
+    "date": "2025-11-13",
+    "description": "Breakthrough in computational simulations models enzyme dynamics at microsecond scale."
+  },
+  {
+    "id": 47,
+    "image": "https://picsum.photos/640/480?random=47",
+    "date": "2025-11-20",
+    "description": "Biophysicists study the role of phase separation in cellular compartmentalization."
+  },
+  {
+    "id": 48,
+    "image": "https://picsum.photos/640/480?random=48",
+    "date": "2025-11-27",
+    "description": "New evidence shows molecular crowding impacts biochemical reaction rates."
+  },
+  {
+    "id": 49,
+    "image": "https://picsum.photos/640/480?random=49",
+    "date": "2025-12-04",
+    "description": "Scientists design peptide-based nanomaterials with biomedical applications."
+  },
+  {
+    "id": 50,
+    "image": "https://picsum.photos/640/480?random=50",
+    "date": "2025-12-11",
+    "description": "Research highlights the interplay of biophysics and epigenetics in gene regulation."
+  }
+]
