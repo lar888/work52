@@ -13,10 +13,8 @@ The site supports:
 
 ## 🚀 Installation & Setup
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/research-group-website.git
-cd research-group-website
+### 1. github repository:
+https://github.com/lar888/work52
 
 2. Install dependencies
 yarn
