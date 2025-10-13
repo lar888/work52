@@ -1,0 +1,18 @@
+---
+description: Best practices for Redux Toolkit state management and modern Redux patterns
+globs: **/*.ts,**/*.tsx,**/*.js,**/*.jsx
+alwaysApply: false
+---
+
+- Use configureStore from @reduxjs/toolkit instead of the deprecated createStore from redux for setting up the store.
+- Create slices with createSlice instead of separate action creators and reducers (e.g., const counterSlice = createSlice({name: 'counter', initialState, reducers})).
+- Use createAsyncThunk for handling async operations and API calls with built-in loading states.
+- Implement RTK Query (createApi) for efficient data fetching, caching, and synchronization instead of manual thunk actions.
+- Structure Redux files using the "ducks" pattern or feature-based folders (e.g., features/counter/counterSlice.ts).
+- Use TypeScript with proper typing for state, actions, and selectors (e.g., RootState, AppDispatch types).
+- Leverage built-in Redux DevTools integration available in configureStore by default.
+- Use createSelector from @reduxjs/toolkit for memoized selectors to optimize performance.
+- Configure middleware properly in configureStore, adding custom middleware to the default set when needed.
+- Use the official React-Redux hooks (useSelector, useDispatch) with proper TypeScript typing.
+- Implement proper error handling in async thunks using the rejected action type.
+- Follow the Redux Toolkit "slice" naming convention with consistent action and reducer naming patterns.

@@ -1,0 +1,14 @@
+---
+description: Best practices for React component development and state management
+globs: **/*.ts,**/*.tsx,**/*.js,**/*.jsx
+alwaysApply: false
+---
+
+- Use functional components with hooks (e.g., useState, useEffect) instead of class components.
+- Implement proper state management using Context API or external libraries like Redux or Zustand if complex state is needed.
+- Utilize memoization with useMemo (e.g., useMemo(() => computeExpensiveValue(a, b), [a, b])) and useCallback for performance optimization.
+- Follow the single responsibility principle by keeping components focused on one task (e.g., separate UI from logic).
+- Use early returns whenever possible to enhance readability.
+- Use descriptive variable and function/const names; event functions should use a “handle” prefix (e.g., handleClick, handleKeyDown).
+- Implement accessibility features (e.g., tabindex="0", aria-label, onClick, onKeyDown).
+- Use const instead of function (e.g., const toggle = () =>), with TypeScript types when possible.low the single responsibility principle by keeping components focused on one task (e.g., separate UI from logic).
