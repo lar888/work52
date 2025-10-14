@@ -1,4 +1,3 @@
-// src/redux/slices/userSlice.ts
 import type { UserInterface } from '../../types/User.interface'
 import type { RootState } from '../store'
 import createFetchSlice from './createFetchSlice'
@@ -16,6 +15,7 @@ export const fetchAllUsers = userSlice.fetchThunk
 export const selectUsers = (state: RootState) => state.users.data
 export const selectUsersLoading = (state: RootState) => state.users.isLoading
 export const selectUsersError = (state: RootState) => state.users.error
-export const selectUsersTotalCount = (state: RootState) => state.users.totalCount
+export const selectUsersTotalCount = (state: RootState) =>
+  state.users.totalCount
 
 export default userSlice.reducer

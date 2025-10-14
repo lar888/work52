@@ -1,4 +1,3 @@
-// src/components/pages/Contact.tsx
 import { useCallback } from 'react'
 import { useNavigate } from 'react-router'
 import PageLayout from '../layouts/PageLayout'

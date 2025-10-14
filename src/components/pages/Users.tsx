@@ -9,7 +9,8 @@ import {
   selectUsersTotalCount
 } from '../../redux/slices/userSlice'
 import {
-  API_ITEMS_PER_PAGE_LIMIT_USERS, API_URL_USERS
+  API_ITEMS_PER_PAGE_LIMIT_USERS,
+  API_URL_USERS
 } from '../../utils/mockapiPosts'
 import PageLayout from '../layouts/PageLayout'
 import Pagination from '../posts/Pagination'
@@ -26,7 +27,7 @@ const Users = () => {
     data: users,
     isLoading,
     error,
-        totalPages,
+    totalPages,
     currentPage,
     handlePageChange
   } = useFilteredPaginatedData({
@@ -38,7 +39,7 @@ const Users = () => {
     selectLoading: selectUsersLoading,
     selectError: selectUsersError,
     itemsPerPage: API_ITEMS_PER_PAGE_LIMIT_USERS,
-		resetOnMount: true // ✅ start fresh each time you visit /users
+    resetOnMount: true // ✅ start fresh each time you visit /users
   })
 
   const handleFilter = useCallback(

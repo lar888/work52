@@ -30,7 +30,6 @@ const SelectField = ({
         onChange={onChangeSelect}
         required={required}
       >
-        
         {options.map((option) => (
           <option key={option.value} value={option.value}>
             {option.text}

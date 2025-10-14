@@ -1,4 +1,3 @@
-/* === COLOR THEME === */
 :root {
   --container: min(100% - 48px, 1440px);
   --green-primary: #2e6b52;
@@ -386,7 +385,8 @@ h1 {
 /* === Tablet layout === */
 @media (max-width: 960px) {
   .page-layout {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -398,7 +398,7 @@ h1 {
 
   .main-content h1 {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .posts-list {
@@ -413,6 +413,12 @@ h1 {
 
   .post-item__image {
     height: 260px;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-content h1 {
+    margin-top: 2rem;
   }
 }
 
@@ -540,15 +546,15 @@ h1 {
   padding: 8px;
   border: 1px solid #b0c4b2;
   border-radius: 4px;
-  background-color: transparent; /* ✅ make background transparent */
-  color: #1f4f38; /* ✅ make icon visible */
+  background-color: transparent;
+  color: #1f4f38;
   font-size: 1.2rem;
   cursor: pointer;
   transition: border-color 0.2s, background-color 0.2s, transform 0.1s;
 }
 
 .posts-filter button:hover {
-  background-color: #d7ebdc; /* ✅ light green background on hover */
+  background-color: #d7ebdc;
   border-color: #1f4f38;
   transform: scale(1.025);
 }
@@ -782,7 +788,7 @@ button:disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--white);
   z-index: 0;
 }
 
@@ -871,7 +877,7 @@ button:disabled {
 
 /* Subtle hover/focus state */
 .highlight-text:hover {
-  background: rgba(232, 242, 236, 0.9); /* slightly brighter green-light */
+  background: rgba(232, 242, 236, 0.9);
   transform: translateY(-2px);
 }
 
@@ -970,7 +976,7 @@ button:disabled {
 .sidebar__item {
   cursor: pointer;
   border-radius: 9999px;
-  padding: 0.35rem 0.75rem;
+  padding: 0 0.75rem;
   font-size: 0.8rem;
   border: 1px solid transparent;
   transition: all 0.3s ease;
@@ -1001,7 +1007,7 @@ button:disabled {
   border: 1px solid #b0c4b2;
   border-radius: 6px;
   font-size: 0.9rem;
-  background-color: #fff;
+  background-color: var(--white);
   transition: all 0.25s ease;
 }
 .sidebar__search-input:focus {
@@ -1048,25 +1054,25 @@ button:disabled {
 
 @media (max-width: 1220px) {
   .sidebar__search-input {
-		margin-top: 20px;
-	}
+    margin-top: 1rem;
+  }
+
+  .main-content h1 {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 960px) {
-  .page-layout {
-    flex-direction: column;
-  }
   .sidebar {
     width: 100%;
-		border-right: none;
+    border-right: none;
   }
-	
 }
 
 @media (max-width: 560px) {
   .sidebar__search-input {
-		margin-top: 50px;
-	}
+    margin-top: 50px;
+  }
 }
 
 /* === USER CARD LIST === */
@@ -1082,7 +1088,7 @@ button:disabled {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  border: none; /* ✅ no border */
+  border: none;
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
@@ -1102,11 +1108,11 @@ button:disabled {
   object-fit: cover;
   object-position: center;
   display: block;
-  border: none; /* ✅ no line between image and content */
+  border: none;
   transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
-/* ✅ Hover effect: smooth shadow fade */
+/* Hover effect: smooth shadow fade */
 .user-card:hover .user-card__image {
   transform: scale(1.03);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -1149,14 +1155,14 @@ button:disabled {
     height: 200px;
   }
 
-  /* ✅ Keep text and date left-aligned on all screens */
+  /* Keep text and date left-aligned on all screens */
   .user-card__content {
     text-align: left;
     align-items: flex-start;
   }
 }
 
-/* ✅ Disable image zoom + shadow below 720px */
+/* Disable image zoom + shadow below 720px */
 @media (max-width: 720px) {
   .user-card:hover .user-card__image {
     transform: none;
@@ -1202,7 +1208,7 @@ button:disabled {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  border: none; /* ✅ no border */
+  border: none;
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
@@ -1227,7 +1233,7 @@ button:disabled {
   object-fit: cover;
   object-position: center;
   display: block;
-  border: none; /* ✅ removed side borders */
+  border: none;
   transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
@@ -1235,7 +1241,7 @@ button:disabled {
   border: none;
 }
 
-/* ✅ Hover effect: smooth zoom and shadow fade */
+/* Hover effect: smooth zoom and shadow fade */
 .research-card:hover .research-card__image {
   transform: scale(1.03);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -1284,7 +1290,7 @@ button:disabled {
   }
 }
 
-/* ✅ Disable zoom + shadow below 720px */
+/* Disable zoom + shadow below 720px */
 @media (max-width: 720px) {
   .research-card:hover .research-card__image {
     transform: none;
@@ -1334,7 +1340,7 @@ button:disabled {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  border: none; /* ❌ removed border */
+  border: none;
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
@@ -1354,7 +1360,7 @@ button:disabled {
   object-fit: cover;
   object-position: center;
   display: block;
-  border: none; /* ❌ removed side border */
+  border: none;
   transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
@@ -1387,7 +1393,7 @@ button:disabled {
   transition: color 0.3s ease, opacity 0.3s ease;
 }
 
-/* ✅ calendar icon */
+/* calendar icon */
 .news-card__icon {
   color: var(--green-hover);
   font-size: 1.05rem;
@@ -1395,7 +1401,7 @@ button:disabled {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* ✅ Hover effect: subtle highlight and scale */
+/* Hover effect: subtle highlight and scale */
 .news-card:hover .news-card__date,
 .news-card:hover .news-card__icon {
   color: var(--green-hover);
@@ -1426,7 +1432,7 @@ button:disabled {
     height: 200px;
   }
 
-  /* ✅ Keep text and date left-aligned on all screens */
+  /* Keep text and date left-aligned on all screens */
   .news-card__content {
     text-align: left;
     align-items: flex-start;
@@ -1460,7 +1466,7 @@ button:disabled {
     flex: none;
   }
 
-  /* ✅ Keep left alignment instead of centering */
+  /* Keep left alignment instead of centering */
   .news-card__content {
     text-align: left;
     align-items: flex-start;
@@ -1533,7 +1539,7 @@ button:disabled {
   opacity: 0.9;
 }
 
-/* ✅ Clean, no background; visually balanced scaling */
+/* Clean, no background; visually balanced scaling */
 .funding-logo img {
   max-height: 80px; /* controls visual uniformity */
   width: auto;

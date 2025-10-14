@@ -20,7 +20,7 @@ export function useFilteredPaginatedData<T>(config: {
   selectError: (state: any) => string | null
   itemsPerPage: number
   resetOnMount?: boolean
-  reload?: string | number // ✅ added optional reload dependency
+  reload?: string | number
 }) {
   const {
     localStorageKey,
@@ -32,7 +32,7 @@ export function useFilteredPaginatedData<T>(config: {
     selectError,
     itemsPerPage,
     resetOnMount = false,
-    reload 
+    reload
   } = config
 
   const dispatch = useDispatch<AppDispatch>()
@@ -89,7 +89,7 @@ export function useFilteredPaginatedData<T>(config: {
     const toPersist: Record<string, string> = {}
     searchParams.forEach((v, k) => (toPersist[k] = v))
     localStorage.setItem(localStorageKey, JSON.stringify(toPersist))
-  }, [searchParams.toString(), dispatch, fetchThunk, buildApiUrl, reload]) // ✅ added reload
+  }, [searchParams.toString(), dispatch, fetchThunk, buildApiUrl, reload])
 
   const totalPages = Math.max(1, Math.ceil(totalCount / itemsPerPage))
 

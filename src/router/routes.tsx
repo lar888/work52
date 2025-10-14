@@ -71,7 +71,11 @@ export const routesConfig: RouteConfig[] = [
   {
     id: 'admin',
     path: '/admin',
-    element: <RequireAuth><Admin /></RequireAuth>,
+    element: (
+      <RequireAuth>
+        <Admin />
+      </RequireAuth>
+    ),
     label: 'Admin',
     showInNavigation: false
   }

@@ -22,7 +22,7 @@ const EditPost = ({ children, post, reload }: EditPostProps) => {
     try {
       const updatedPost = await update(post)
       console.log('Updated:', updatedPost)
-			
+
       handleClose()
       reload()
     } catch (error) {

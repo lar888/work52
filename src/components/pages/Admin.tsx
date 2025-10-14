@@ -26,7 +26,6 @@ const Admin = () => {
   const [searchParams, setSearchParams] = useSearchParams()
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // ✅ Use shared hook for fetching paginated + filtered posts
   const {
     data: posts,
     isLoading,
@@ -44,7 +43,7 @@ const Admin = () => {
     selectError: selectPostsError,
     itemsPerPage: API_ITEMS_PER_PAGE_LIMIT,
     resetOnMount: true,
-		reload
+    reload
   })
 
   const sort = searchParams.get('sortBy') ?? ''
@@ -86,7 +85,7 @@ const Admin = () => {
   }, [setSearchParams])
 
   return (
-    <div className='admin'>
+    <div className="admin">
       <h1>Admin Panel</h1>
 
       <PostsFilter

@@ -1,4 +1,3 @@
-// src/hooks/useDelete.ts
 import axios from 'axios'
 
 export const useDelete = (url: string) => {

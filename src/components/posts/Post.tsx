@@ -13,7 +13,7 @@ interface PostProps {
 const Post = ({
   post: { id, name, description, image, category, tags, year, selected },
   reload,
-  isAdminMode = false,
+  isAdminMode = false
 }: PostProps) => {
   const { deletePost } = useDelete(API_URL)
 

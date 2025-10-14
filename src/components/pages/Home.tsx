@@ -20,13 +20,13 @@ const Home = () => {
 
   const [selectedPosts, setSelectedPosts] = useState(posts)
 
-  // ✅ Fetch all selected posts (ignore pagination)
+  // Fetch all selected posts (ignore pagination)
   useEffect(() => {
     const url = `${API_URL}?selected=true&sortBy=createdAt&order=desc`
     dispatch(fetchAllPosts(url))
   }, [dispatch])
 
-  // ✅ Keep in sync with Redux
+  // Keep in sync with Redux
   useEffect(() => {
     setSelectedPosts(posts.filter((p) => p.selected))
   }, [posts])
