@@ -8,6 +8,14 @@
   --border-light: #d8e3da;
   --post-hover-bg: rgba(255, 255, 255, 0.7);
   --white: #ffffff;
+
+  /* === Contact Form === */
+  --form-radius: 12px;
+  --form-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  --input-bg: #ffffff;
+  --input-border: #cfd8d1;
+  --input-border-focus: var(--green-primary);
+  --error-color: #b02a37;
 }
 
 /* === GLOBAL RESETS === */
@@ -1618,6 +1626,101 @@ button:disabled {
   margin-top: 20px;
 }
 
+/* === CONTACT FORM === */
+.contact-form {
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--form-radius);
+  box-shadow: var(--form-shadow);
+  padding: 30px 40px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.form-title {
+  text-align: center;
+  color: var(--green-primary);
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  background: var(--input-bg);
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: var(--input-border-focus);
+  outline: none;
+}
+
+.error-text {
+  color: var(--error-color);
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.contact-submit {
+  display: block;
+  background: var(--green-primary);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+  width: 220px; 
+}
+
+.contact-submit:hover {
+  background: var(--green-hover);
+}
+
+.success-text {
+  color: var(--green-primary);
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1rem;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-submit {
+    width: 100%;
+  }
+}
+
 /* Loading spinner (if used) */
 .loading-container {
   display: flex;
@@ -1643,10 +1746,4 @@ button:disabled {
   color: #c0392b;
   text-align: center;
   margin: 24px 0;
-}
-
-.error-text {
-  color: #c0392b;
-  text-align: center;
-  font-size: 0.9rem;
 }
